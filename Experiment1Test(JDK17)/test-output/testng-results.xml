@@ -1,0 +1,2491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="93" passed="63" failed="13" skipped="17">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-07T12:42:18Z" name="All Test Suite" finished-at="2024-06-07T12:42:18Z" duration-ms="570">
+    <groups>
+    </groups>
+    <test started-at="2024-06-07T12:42:18Z" name="D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/index/TermTest.java" finished-at="2024-06-07T12:42:18Z" duration-ms="30">
+      <class name="hust.cs.javacourse.search.index.TermTest">
+        <test-method signature="testTestEquals([Lhust.cs.javacourse.search.index.AbstractTerm;, boolean)[pri:0, instance:hust.cs.javacourse.search.index.TermTest@76a3e297]" started-at="2024-06-07T12:42:18Z" name="testTestEquals" data-provider="testTerm" finished-at="2024-06-07T12:42:18Z" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lhust.cs.javacourse.search.index.AbstractTerm;@78dd667e]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestEquals -->
+        <test-method signature="testTestEquals([Lhust.cs.javacourse.search.index.AbstractTerm;, boolean)[pri:0, instance:hust.cs.javacourse.search.index.TermTest@76a3e297]" started-at="2024-06-07T12:42:18Z" name="testTestEquals" data-provider="testTerm" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lhust.cs.javacourse.search.index.AbstractTerm;@10db82ae]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestEquals -->
+        <test-method signature="testTestToString(hust.cs.javacourse.search.index.AbstractTerm, java.lang.String)[pri:0, instance:hust.cs.javacourse.search.index.TermTest@76a3e297]" started-at="2024-06-07T12:42:18Z" name="testTestToString" data-provider="testTerm" finished-at="2024-06-07T12:42:18Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[We have a dream.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[We have a dream.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestToString -->
+        <test-method signature="testGetContent(hust.cs.javacourse.search.index.AbstractTerm, java.lang.String)[pri:0, instance:hust.cs.javacourse.search.index.TermTest@76a3e297]" started-at="2024-06-07T12:42:18Z" name="testGetContent" data-provider="testTerm" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[We have a dream.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[We have a dream.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetContent -->
+        <test-method signature="testSetContent(hust.cs.javacourse.search.index.AbstractTerm, java.lang.String)[pri:0, instance:hust.cs.javacourse.search.index.TermTest@76a3e297]" started-at="2024-06-07T12:42:18Z" name="testSetContent" data-provider="testTerm" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[We have no dream.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[We have no dream.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetContent -->
+        <test-method signature="testCompareTo([Lhust.cs.javacourse.search.index.AbstractTerm;, int)[pri:0, instance:hust.cs.javacourse.search.index.TermTest@76a3e297]" started-at="2024-06-07T12:42:18Z" name="testCompareTo" data-provider="testTerm" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lhust.cs.javacourse.search.index.AbstractTerm;@290d210d]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompareTo -->
+        <test-method signature="testCompareTo([Lhust.cs.javacourse.search.index.AbstractTerm;, int)[pri:0, instance:hust.cs.javacourse.search.index.TermTest@76a3e297]" started-at="2024-06-07T12:42:18Z" name="testCompareTo" data-provider="testTerm" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lhust.cs.javacourse.search.index.AbstractTerm;@1d76aeea]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompareTo -->
+        <test-method signature="testWriteObject(hust.cs.javacourse.search.index.AbstractTerm, java.lang.String)[pri:0, instance:hust.cs.javacourse.search.index.TermTest@76a3e297]" started-at="2024-06-07T12:42:18Z" name="testWriteObject" data-provider="testTerm" finished-at="2024-06-07T12:42:18Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[search engine]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/C:/Users/23258/Desktop/CS2203_U202215643_%e7%8e%8b%e5%9b%bd%e8%b1%aa/Experiment1Test(JDK17)/test/config/..//ser/Term.dat]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWriteObject -->
+        <test-method signature="testReadObject(hust.cs.javacourse.search.index.AbstractTerm, java.lang.String)[pri:0, instance:hust.cs.javacourse.search.index.TermTest@76a3e297]" started-at="2024-06-07T12:42:18Z" name="testReadObject" data-provider="testTerm" finished-at="2024-06-07T12:42:18Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[search engine]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/C:/Users/23258/Desktop/CS2203_U202215643_%e7%8e%8b%e5%9b%bd%e8%b1%aa/Experiment1Test(JDK17)/test/config/..//ser/Term.dat]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReadObject -->
+      </class> <!-- hust.cs.javacourse.search.index.TermTest -->
+    </test> <!-- D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/index/TermTest.java -->
+    <test started-at="2024-06-07T12:42:18Z" name="D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/index/TermTupleTest.java" finished-at="2024-06-07T12:42:18Z" duration-ms="8">
+      <class name="hust.cs.javacourse.search.index.TermTupleTest">
+        <test-method signature="testTestEquals([Lhust.cs.javacourse.search.index.AbstractTermTuple;, boolean)[pri:0, instance:hust.cs.javacourse.search.index.TermTupleTest@13eb8acf]" started-at="2024-06-07T12:42:18Z" name="testTestEquals" data-provider="testTermTuple" finished-at="2024-06-07T12:42:18Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lhust.cs.javacourse.search.index.AbstractTermTuple;@1677d1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestEquals -->
+        <test-method signature="testTestToString(hust.cs.javacourse.search.index.AbstractTermTuple, [Ljava.lang.String;)[pri:0, instance:hust.cs.javacourse.search.index.TermTupleTest@13eb8acf]" started-at="2024-06-07T12:42:18Z" name="testTestToString" data-provider="testTermTuple" finished-at="2024-06-07T12:42:18Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[<"Search", 1, 100>]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.String;@5e316c74]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestToString -->
+        <test-method signature="testTestEquals([Lhust.cs.javacourse.search.index.AbstractTermTuple;, boolean)[pri:0, instance:hust.cs.javacourse.search.index.TermTupleTest@13eb8acf]" started-at="2024-06-07T12:42:18Z" name="testTestEquals" data-provider="testTermTuple" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lhust.cs.javacourse.search.index.AbstractTermTuple;@48fa0f47]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestEquals -->
+        <test-method signature="testTestEquals([Lhust.cs.javacourse.search.index.AbstractTermTuple;, boolean)[pri:0, instance:hust.cs.javacourse.search.index.TermTupleTest@13eb8acf]" started-at="2024-06-07T12:42:18Z" name="testTestEquals" data-provider="testTermTuple" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lhust.cs.javacourse.search.index.AbstractTermTuple;@6ac13091]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestEquals -->
+      </class> <!-- hust.cs.javacourse.search.index.TermTupleTest -->
+    </test> <!-- D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/index/TermTupleTest.java -->
+    <test started-at="2024-06-07T12:42:18Z" name="D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/index/PostingTest.java" finished-at="2024-06-07T12:42:18Z" duration-ms="18">
+      <class name="hust.cs.javacourse.search.index.PostingTest">
+        <test-method signature="testTestEquals([Lhust.cs.javacourse.search.index.AbstractPosting;, boolean)[pri:0, instance:hust.cs.javacourse.search.index.PostingTest@7e0e6aa2]" started-at="2024-06-07T12:42:18Z" name="testTestEquals" data-provider="testPosting" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lhust.cs.javacourse.search.index.AbstractPosting;@2f7c2f4f]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestEquals -->
+        <test-method signature="testTestEquals([Lhust.cs.javacourse.search.index.AbstractPosting;, boolean)[pri:0, instance:hust.cs.javacourse.search.index.PostingTest@7e0e6aa2]" started-at="2024-06-07T12:42:18Z" name="testTestEquals" data-provider="testPosting" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lhust.cs.javacourse.search.index.AbstractPosting;@ef9296d]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestEquals -->
+        <test-method signature="testTestEquals([Lhust.cs.javacourse.search.index.AbstractPosting;, boolean)[pri:0, instance:hust.cs.javacourse.search.index.PostingTest@7e0e6aa2]" started-at="2024-06-07T12:42:18Z" name="testTestEquals" data-provider="testPosting" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lhust.cs.javacourse.search.index.AbstractPosting;@1b1473ab]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestEquals -->
+        <test-method signature="testTestEquals([Lhust.cs.javacourse.search.index.AbstractPosting;, boolean)[pri:0, instance:hust.cs.javacourse.search.index.PostingTest@7e0e6aa2]" started-at="2024-06-07T12:42:18Z" name="testTestEquals" data-provider="testPosting" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lhust.cs.javacourse.search.index.AbstractPosting;@149e0f5d]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestEquals -->
+        <test-method signature="testTestEquals([Lhust.cs.javacourse.search.index.AbstractPosting;, boolean)[pri:0, instance:hust.cs.javacourse.search.index.PostingTest@7e0e6aa2]" started-at="2024-06-07T12:42:18Z" name="testTestEquals" data-provider="testPosting" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lhust.cs.javacourse.search.index.AbstractPosting;@6af93788]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestEquals -->
+        <test-method signature="testTestToString(hust.cs.javacourse.search.index.AbstractPosting, [Ljava.lang.String;)[pri:0, instance:hust.cs.javacourse.search.index.PostingTest@7e0e6aa2]" started-at="2024-06-07T12:42:18Z" name="testTestToString" data-provider="testPosting" finished-at="2024-06-07T12:42:18Z" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{docId: 1, freq: 4, positions: [10, 100, 320, 400]}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.String;@36c88a32]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestToString -->
+        <test-method signature="testGetDocId(hust.cs.javacourse.search.index.AbstractPosting, int)[pri:0, instance:hust.cs.javacourse.search.index.PostingTest@7e0e6aa2]" started-at="2024-06-07T12:42:18Z" name="testGetDocId" data-provider="testPosting" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{docId: 1, freq: 4, positions: [10, 100, 320, 400]}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDocId -->
+        <test-method signature="testGetFreq(hust.cs.javacourse.search.index.AbstractPosting, int)[pri:0, instance:hust.cs.javacourse.search.index.PostingTest@7e0e6aa2]" started-at="2024-06-07T12:42:18Z" name="testGetFreq" data-provider="testPosting" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{docId: 1, freq: 4, positions: [10, 100, 320, 400]}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetFreq -->
+        <test-method signature="testSetFreq(hust.cs.javacourse.search.index.AbstractPosting, int)[pri:0, instance:hust.cs.javacourse.search.index.PostingTest@7e0e6aa2]" started-at="2024-06-07T12:42:18Z" name="testSetFreq" data-provider="testPosting" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{docId: 0, freq: 8, positions: []}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetFreq -->
+        <test-method signature="testSetDocId(hust.cs.javacourse.search.index.AbstractPosting, int)[pri:0, instance:hust.cs.javacourse.search.index.PostingTest@7e0e6aa2]" started-at="2024-06-07T12:42:18Z" name="testSetDocId" data-provider="testPosting" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{docId: 20, freq: 0, positions: []}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetDocId -->
+        <test-method signature="testGetPositions(hust.cs.javacourse.search.index.AbstractPosting, java.util.List)[pri:0, instance:hust.cs.javacourse.search.index.PostingTest@7e0e6aa2]" started-at="2024-06-07T12:42:18Z" name="testGetPositions" data-provider="testPosting" finished-at="2024-06-07T12:42:18Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{docId: 1, freq: 4, positions: [10, 100, 320, 400]}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[10, 100, 320, 400]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPositions -->
+        <test-method signature="testSetPositions(hust.cs.javacourse.search.index.AbstractPosting, java.util.List)[pri:0, instance:hust.cs.javacourse.search.index.PostingTest@7e0e6aa2]" started-at="2024-06-07T12:42:18Z" name="testSetPositions" data-provider="testPosting" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{docId: 0, freq: 0, positions: [100, 320, 400]}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[100, 320, 400]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetPositions -->
+        <test-method signature="testSort(hust.cs.javacourse.search.index.AbstractPosting, java.util.List)[pri:0, instance:hust.cs.javacourse.search.index.PostingTest@7e0e6aa2]" started-at="2024-06-07T12:42:18Z" name="testSort" data-provider="testPosting" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{docId: 1, freq: 4, positions: [10, 100, 320, 400]}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[10, 100, 320, 400]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSort -->
+        <test-method signature="testCompareTo([Lhust.cs.javacourse.search.index.AbstractPosting;, int)[pri:0, instance:hust.cs.javacourse.search.index.PostingTest@7e0e6aa2]" started-at="2024-06-07T12:42:18Z" name="testCompareTo" data-provider="testPosting" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lhust.cs.javacourse.search.index.AbstractPosting;@3aefe5e5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompareTo -->
+        <test-method signature="testWriteObject(hust.cs.javacourse.search.index.AbstractPosting, java.lang.String)[pri:0, instance:hust.cs.javacourse.search.index.PostingTest@7e0e6aa2]" started-at="2024-06-07T12:42:18Z" name="testWriteObject" data-provider="testPosting" finished-at="2024-06-07T12:42:18Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{docId: 1, freq: 4, positions: [10, 100, 320, 400]}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/C:/Users/23258/Desktop/CS2203_U202215643_%e7%8e%8b%e5%9b%bd%e8%b1%aa/Experiment1Test(JDK17)/test/config/..//ser/Posting.dat]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWriteObject -->
+        <test-method signature="testReadObject(hust.cs.javacourse.search.index.AbstractPosting, java.lang.String)[pri:0, instance:hust.cs.javacourse.search.index.PostingTest@7e0e6aa2]" started-at="2024-06-07T12:42:18Z" name="testReadObject" data-provider="testPosting" finished-at="2024-06-07T12:42:18Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{docId: 1, freq: 4, positions: [10, 100, 320, 400]}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/C:/Users/23258/Desktop/CS2203_U202215643_%e7%8e%8b%e5%9b%bd%e8%b1%aa/Experiment1Test(JDK17)/test/config/..//ser/Posting.dat]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReadObject -->
+      </class> <!-- hust.cs.javacourse.search.index.PostingTest -->
+    </test> <!-- D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/index/PostingTest.java -->
+    <test started-at="2024-06-07T12:42:18Z" name="D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/index/PostingListTest.java" finished-at="2024-06-07T12:42:18Z" duration-ms="16">
+      <class name="hust.cs.javacourse.search.index.PostingListTest">
+        <test-method signature="testAdd(hust.cs.javacourse.search.index.AbstractPostingList, [Lhust.cs.javacourse.search.index.AbstractPosting;)[pri:0, instance:hust.cs.javacourse.search.index.PostingListTest@2eda0940]" started-at="2024-06-07T12:42:18Z" name="testAdd" data-provider="testPostingList" finished-at="2024-06-07T12:42:18Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{docId: 1, freq: 4, positions: [1, 2, 3, 4]} {docId: 2, freq: 2, positions: [5, 6]} ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Lhust.cs.javacourse.search.index.AbstractPosting;@72a7c7e0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+        <test-method signature="testTestToString(hust.cs.javacourse.search.index.AbstractPostingList, [Ljava.lang.String;)[pri:0, instance:hust.cs.javacourse.search.index.PostingListTest@2eda0940]" started-at="2024-06-07T12:42:18Z" name="testTestToString" data-provider="testPostingList" finished-at="2024-06-07T12:42:18Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{docId: 1, freq: 4, positions: [1, 2, 3, 4]} {docId: 2, freq: 2, positions: [5, 6]} ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.String;@34b7ac2f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestToString -->
+        <test-method signature="testGet(hust.cs.javacourse.search.index.AbstractPostingList, [Lhust.cs.javacourse.search.index.AbstractPosting;)[pri:0, instance:hust.cs.javacourse.search.index.PostingListTest@2eda0940]" started-at="2024-06-07T12:42:18Z" name="testGet" data-provider="testPostingList" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{docId: 1, freq: 4, positions: [1, 2, 3, 4]} {docId: 2, freq: 2, positions: [5, 6]} ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Lhust.cs.javacourse.search.index.AbstractPosting;@70e8f8e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet -->
+        <test-method signature="testTestAdd(hust.cs.javacourse.search.index.AbstractPostingList, java.util.List)[pri:0, instance:hust.cs.javacourse.search.index.PostingListTest@2eda0940]" started-at="2024-06-07T12:42:18Z" name="testTestAdd" data-provider="testPostingList" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{docId: 1, freq: 4, positions: [1, 2, 3, 4]} {docId: 2, freq: 2, positions: [5, 6]} ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[{docId: 1, freq: 4, positions: [1, 2, 3, 4]}, {docId: 1, freq: 4, positions: [2, 4, 3, 1]}, {docId: 2, freq: 2, positions: [5, 6]}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestAdd -->
+        <test-method signature="testIndexOf(hust.cs.javacourse.search.index.AbstractPostingList, [Lhust.cs.javacourse.search.index.AbstractPosting;)[pri:0, instance:hust.cs.javacourse.search.index.PostingListTest@2eda0940]" started-at="2024-06-07T12:42:18Z" name="testIndexOf" data-provider="testPostingList" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{docId: 1, freq: 4, positions: [1, 2, 3, 4]} {docId: 2, freq: 2, positions: [5, 6]} ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Lhust.cs.javacourse.search.index.AbstractPosting;@17046283]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIndexOf -->
+        <test-method signature="testContains(hust.cs.javacourse.search.index.AbstractPostingList, [Lhust.cs.javacourse.search.index.AbstractPosting;)[pri:0, instance:hust.cs.javacourse.search.index.PostingListTest@2eda0940]" started-at="2024-06-07T12:42:18Z" name="testContains" data-provider="testPostingList" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{docId: 1, freq: 4, positions: [1, 2, 3, 4]} ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Lhust.cs.javacourse.search.index.AbstractPosting;@2e4b8173]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContains -->
+        <test-method signature="testRemove(hust.cs.javacourse.search.index.AbstractPostingList, [Lhust.cs.javacourse.search.index.AbstractPosting;)[pri:0, instance:hust.cs.javacourse.search.index.PostingListTest@2eda0940]" started-at="2024-06-07T12:42:18Z" name="testRemove" data-provider="testPostingList" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Lhust.cs.javacourse.search.index.AbstractPosting;@5bd03f44]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemove -->
+        <test-method signature="testTestRemove(hust.cs.javacourse.search.index.AbstractPostingList, [Lhust.cs.javacourse.search.index.AbstractPosting;)[pri:0, instance:hust.cs.javacourse.search.index.PostingListTest@2eda0940]" started-at="2024-06-07T12:42:18Z" name="testTestRemove" data-provider="testPostingList" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Lhust.cs.javacourse.search.index.AbstractPosting;@6e4784bc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestRemove -->
+        <test-method signature="testTestIndexOf(hust.cs.javacourse.search.index.AbstractPostingList, [Lhust.cs.javacourse.search.index.AbstractPosting;)[pri:0, instance:hust.cs.javacourse.search.index.PostingListTest@2eda0940]" started-at="2024-06-07T12:42:18Z" name="testTestIndexOf" data-provider="testPostingList" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{docId: 1, freq: 4, positions: [1, 2, 3, 4]} {docId: 2, freq: 2, positions: [5, 6]} ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Lhust.cs.javacourse.search.index.AbstractPosting;@5a63f509]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestIndexOf -->
+        <test-method signature="testSize(hust.cs.javacourse.search.index.AbstractPostingList, int)[pri:0, instance:hust.cs.javacourse.search.index.PostingListTest@2eda0940]" started-at="2024-06-07T12:42:18Z" name="testSize" data-provider="testPostingList" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{docId: 1, freq: 4, positions: [1, 2, 3, 4]} {docId: 2, freq: 2, positions: [5, 6]} ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSize -->
+        <test-method signature="testSize(hust.cs.javacourse.search.index.AbstractPostingList, int)[pri:0, instance:hust.cs.javacourse.search.index.PostingListTest@2eda0940]" started-at="2024-06-07T12:42:18Z" name="testSize" data-provider="testPostingList" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSize -->
+        <test-method signature="testClear(hust.cs.javacourse.search.index.AbstractPostingList, java.lang.Object)[pri:0, instance:hust.cs.javacourse.search.index.PostingListTest@2eda0940]" started-at="2024-06-07T12:42:18Z" name="testClear" data-provider="testPostingList" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClear -->
+        <test-method signature="testIsEmpty(hust.cs.javacourse.search.index.AbstractPostingList, boolean)[pri:0, instance:hust.cs.javacourse.search.index.PostingListTest@2eda0940]" started-at="2024-06-07T12:42:18Z" name="testIsEmpty" data-provider="testPostingList" finished-at="2024-06-07T12:42:18Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{docId: 1, freq: 4, positions: [1, 2, 3, 4]} {docId: 2, freq: 2, positions: [5, 6]} ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsEmpty -->
+        <test-method signature="testIsEmpty(hust.cs.javacourse.search.index.AbstractPostingList, boolean)[pri:0, instance:hust.cs.javacourse.search.index.PostingListTest@2eda0940]" started-at="2024-06-07T12:42:18Z" name="testIsEmpty" data-provider="testPostingList" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsEmpty -->
+        <test-method signature="testSort(hust.cs.javacourse.search.index.AbstractPostingList, [Ljava.lang.Integer;)[pri:0, instance:hust.cs.javacourse.search.index.PostingListTest@2eda0940]" started-at="2024-06-07T12:42:18Z" name="testSort" data-provider="testPostingList" finished-at="2024-06-07T12:42:18Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{docId: 2, freq: 4, positions: [5, 9, 7, 8]} {docId: 3, freq: 2, positions: [10, 11]} {docId: 4, freq: 4, positions: [1, 4, 3, 2]} ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Integer;@29626d54]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSort -->
+        <test-method signature="testWriteObject(hust.cs.javacourse.search.index.AbstractPostingList, java.lang.String)[pri:0, instance:hust.cs.javacourse.search.index.PostingListTest@2eda0940]" started-at="2024-06-07T12:42:18Z" name="testWriteObject" data-provider="testPostingList" finished-at="2024-06-07T12:42:18Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{docId: 1, freq: 4, positions: [1, 2, 3, 4]} {docId: 2, freq: 2, positions: [5, 6]} ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/C:/Users/23258/Desktop/CS2203_U202215643_%e7%8e%8b%e5%9b%bd%e8%b1%aa/Experiment1Test(JDK17)/test/config/..//ser/PostingList.dat]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWriteObject -->
+        <test-method signature="testReadObject(hust.cs.javacourse.search.index.AbstractPostingList, java.lang.String)[pri:0, instance:hust.cs.javacourse.search.index.PostingListTest@2eda0940]" started-at="2024-06-07T12:42:18Z" name="testReadObject" data-provider="testPostingList" finished-at="2024-06-07T12:42:18Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{docId: 1, freq: 4, positions: [1, 2, 3, 4]} {docId: 2, freq: 2, positions: [5, 6]} ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/C:/Users/23258/Desktop/CS2203_U202215643_%e7%8e%8b%e5%9b%bd%e8%b1%aa/Experiment1Test(JDK17)/test/config/..//ser/PostingList.dat]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReadObject -->
+      </class> <!-- hust.cs.javacourse.search.index.PostingListTest -->
+    </test> <!-- D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/index/PostingListTest.java -->
+    <test started-at="2024-06-07T12:42:18Z" name="D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/index/DocumentTest.java" finished-at="2024-06-07T12:42:18Z" duration-ms="11">
+      <class name="hust.cs.javacourse.search.index.DocumentTest">
+        <test-method signature="testGetDocId(hust.cs.javacourse.search.index.AbstractDocument, int)[pri:0, instance:hust.cs.javacourse.search.index.DocumentTest@306279ee]" started-at="2024-06-07T12:42:18Z" name="testGetDocId" data-provider="testDocument" finished-at="2024-06-07T12:42:18Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[docId: 1
+docPath: C:/1.txt
+tuples:
+<"aaa", 1, 17>
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDocId -->
+        <test-method signature="testSetDocId(hust.cs.javacourse.search.index.AbstractDocument, int)[pri:0, instance:hust.cs.javacourse.search.index.DocumentTest@306279ee]" started-at="2024-06-07T12:42:18Z" name="testSetDocId" data-provider="testDocument" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[docId: 2
+docPath: unknown
+tuples:
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetDocId -->
+        <test-method signature="testGetTuples(hust.cs.javacourse.search.index.AbstractDocument, java.util.List)[pri:0, instance:hust.cs.javacourse.search.index.DocumentTest@306279ee]" started-at="2024-06-07T12:42:18Z" name="testGetTuples" data-provider="testDocument" finished-at="2024-06-07T12:42:18Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[docId: 1
+docPath: C:/1.txt
+tuples:
+<"aaa", 1, 17>
+<"bbb", 1, 30>
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[<"aaa", 1, 17>, <"bbb", 1, 30>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTuples -->
+        <test-method signature="testGetDocPath(hust.cs.javacourse.search.index.AbstractDocument, java.lang.String)[pri:0, instance:hust.cs.javacourse.search.index.DocumentTest@306279ee]" started-at="2024-06-07T12:42:18Z" name="testGetDocPath" data-provider="testDocument" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[docId: 1
+docPath: C:/1.txt
+tuples:
+<"aaa", 1, 17>
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C:/1.txt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDocPath -->
+        <test-method signature="testSetDocPath(hust.cs.javacourse.search.index.AbstractDocument, java.lang.String)[pri:0, instance:hust.cs.javacourse.search.index.DocumentTest@306279ee]" started-at="2024-06-07T12:42:18Z" name="testSetDocPath" data-provider="testDocument" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[docId: -1
+docPath: C:/2.txt
+tuples:
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C:/2.txt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetDocPath -->
+        <test-method signature="testContains(hust.cs.javacourse.search.index.AbstractDocument, hust.cs.javacourse.search.index.AbstractTermTuple)[pri:0, instance:hust.cs.javacourse.search.index.DocumentTest@306279ee]" started-at="2024-06-07T12:42:18Z" name="testContains" data-provider="testDocument" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[docId: 1
+docPath: C:/1.txt
+tuples:
+<"aaa", 1, 17>
+<"bbb", 1, 30>
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[<"aaa", 1, 17>]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContains -->
+        <test-method signature="testGetTuple(hust.cs.javacourse.search.index.AbstractDocument, java.util.List)[pri:0, instance:hust.cs.javacourse.search.index.DocumentTest@306279ee]" started-at="2024-06-07T12:42:18Z" name="testGetTuple" data-provider="testDocument" finished-at="2024-06-07T12:42:18Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[docId: 1
+docPath: C:/1.txt
+tuples:
+<"aaa", 1, 17>
+<"bbb", 1, 30>
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[<"aaa", 1, 17>, <"bbb", 1, 30>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTuple -->
+        <test-method signature="testAddTuple(hust.cs.javacourse.search.index.AbstractDocument, hust.cs.javacourse.search.index.AbstractTermTuple)[pri:0, instance:hust.cs.javacourse.search.index.DocumentTest@306279ee]" started-at="2024-06-07T12:42:18Z" name="testAddTuple" data-provider="testDocument" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[docId: 1
+docPath: C:/1.txt
+tuples:
+<"aaa", 1, 17>
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[<"aaa", 1, 17>]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddTuple -->
+        <test-method signature="testContains(hust.cs.javacourse.search.index.AbstractDocument, hust.cs.javacourse.search.index.AbstractTermTuple)[pri:0, instance:hust.cs.javacourse.search.index.DocumentTest@306279ee]" started-at="2024-06-07T12:42:18Z" name="testContains" data-provider="testDocument" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[docId: 1
+docPath: C:/1.txt
+tuples:
+<"aaa", 1, 17>
+<"bbb", 1, 30>
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[<"bbb", 1, 30>]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContains -->
+        <test-method signature="testGetTupleSize(hust.cs.javacourse.search.index.AbstractDocument, int)[pri:0, instance:hust.cs.javacourse.search.index.DocumentTest@306279ee]" started-at="2024-06-07T12:42:18Z" name="testGetTupleSize" data-provider="testDocument" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[docId: 1
+docPath: C:/1.txt
+tuples:
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTupleSize -->
+        <test-method signature="testTestToString(hust.cs.javacourse.search.index.AbstractDocument, [Ljava.lang.String;)[pri:0, instance:hust.cs.javacourse.search.index.DocumentTest@306279ee]" started-at="2024-06-07T12:42:18Z" name="testTestToString" data-provider="testDocument" finished-at="2024-06-07T12:42:18Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[docId: 1
+docPath: C:/1.txt
+tuples:
+<"aaa", 1, 17>
+<"bbb", 1, 30>
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.String;@1139b2f3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestToString -->
+        <test-method signature="testGetTupleSize(hust.cs.javacourse.search.index.AbstractDocument, int)[pri:0, instance:hust.cs.javacourse.search.index.DocumentTest@306279ee]" started-at="2024-06-07T12:42:18Z" name="testGetTupleSize" data-provider="testDocument" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[docId: 1
+docPath: C:/1.txt
+tuples:
+<"aaa", 1, 17>
+<"bbb", 1, 30>
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTupleSize -->
+      </class> <!-- hust.cs.javacourse.search.index.DocumentTest -->
+    </test> <!-- D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/index/DocumentTest.java -->
+    <test started-at="2024-06-07T12:42:18Z" name="D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/parse/TermTupleScannerTest.java" finished-at="2024-06-07T12:42:18Z" duration-ms="10">
+      <class name="hust.cs.javacourse.search.parse.TermTupleScannerTest">
+        <test-method signature="testNext(hust.cs.javacourse.search.parse.AbstractTermTupleStream, java.util.List)[pri:0, instance:hust.cs.javacourse.search.parse.TermTupleScannerTest@24a35978]" started-at="2024-06-07T12:42:18Z" name="testNext" data-provider="testTermTupleScanner" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:131)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+Caused by: java.lang.NullPointerException: Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+at java.base/java.util.regex.Matcher.getTextLength(Matcher.java:1808)
+at java.base/java.util.regex.Matcher.reset(Matcher.java:461)
+at java.base/java.util.regex.Matcher.<init>(Matcher.java:256)
+at java.base/java.util.regex.Pattern.matcher(Pattern.java:1180)
+at util.StringSplitter.splitByRegex(StringSplitter.java:35)
+at hust.cs.javacourse.search.parse.TermTupleScanFilterTestCase.parse(TermTupleScanFilterTestCase.java:55)
+at hust.cs.javacourse.search.parse.TermTupleScanFilterTestCase.parseFile(TermTupleScanFilterTestCase.java:92)
+at hust.cs.javacourse.search.parse.TermTupleScannerTestDataProvider.testTermTupleScanner(TermTupleScannerTestDataProvider.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
+... 21 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNext -->
+      </class> <!-- hust.cs.javacourse.search.parse.TermTupleScannerTest -->
+    </test> <!-- D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/parse/TermTupleScannerTest.java -->
+    <test started-at="2024-06-07T12:42:18Z" name="D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/parse/StopWordTermTupleFilterTest.java" finished-at="2024-06-07T12:42:18Z" duration-ms="9">
+      <class name="hust.cs.javacourse.search.parse.StopWordTermTupleFilterTest">
+        <test-method signature="testNext(hust.cs.javacourse.search.parse.AbstractTermTupleStream, java.util.List)[pri:0, instance:hust.cs.javacourse.search.parse.StopWordTermTupleFilterTest@5579bb86]" started-at="2024-06-07T12:42:18Z" name="testNext" data-provider="testStopWordTermTupleFilter" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:131)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+Caused by: java.lang.NullPointerException: Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+at java.base/java.util.regex.Matcher.getTextLength(Matcher.java:1808)
+at java.base/java.util.regex.Matcher.reset(Matcher.java:461)
+at java.base/java.util.regex.Matcher.<init>(Matcher.java:256)
+at java.base/java.util.regex.Pattern.matcher(Pattern.java:1180)
+at util.StringSplitter.splitByRegex(StringSplitter.java:35)
+at hust.cs.javacourse.search.parse.TermTupleScanFilterTestCase.parse(TermTupleScanFilterTestCase.java:66)
+at hust.cs.javacourse.search.parse.TermTupleScanFilterTestCase.parseFile(TermTupleScanFilterTestCase.java:97)
+at hust.cs.javacourse.search.parse.StopWordTermTupleFilterTestDataProvider.testStopWordTermTupleFilter(StopWordTermTupleFilterTestDataProvider.java:40)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
+... 21 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNext -->
+      </class> <!-- hust.cs.javacourse.search.parse.StopWordTermTupleFilterTest -->
+    </test> <!-- D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/parse/StopWordTermTupleFilterTest.java -->
+    <test started-at="2024-06-07T12:42:18Z" name="D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/parse/PatternTermTupleFilterTest.java" finished-at="2024-06-07T12:42:18Z" duration-ms="6">
+      <class name="hust.cs.javacourse.search.parse.PatternTermTupleFilterTest">
+        <test-method signature="testNext(hust.cs.javacourse.search.parse.AbstractTermTupleStream, java.util.List)[pri:0, instance:hust.cs.javacourse.search.parse.PatternTermTupleFilterTest@b3d7190]" started-at="2024-06-07T12:42:18Z" name="testNext" data-provider="testPatternTermTupleFilter" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:131)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+Caused by: java.lang.NullPointerException: Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+at java.base/java.util.regex.Matcher.getTextLength(Matcher.java:1808)
+at java.base/java.util.regex.Matcher.reset(Matcher.java:461)
+at java.base/java.util.regex.Matcher.<init>(Matcher.java:256)
+at java.base/java.util.regex.Pattern.matcher(Pattern.java:1180)
+at util.StringSplitter.splitByRegex(StringSplitter.java:35)
+at hust.cs.javacourse.search.parse.TermTupleScanFilterTestCase.parse(TermTupleScanFilterTestCase.java:66)
+at hust.cs.javacourse.search.parse.TermTupleScanFilterTestCase.parseFile(TermTupleScanFilterTestCase.java:97)
+at hust.cs.javacourse.search.parse.PatternTermTupleFilterTestDataProvider.testPatternTermTupleFilter(PatternTermTupleFilterTestDataProvider.java:31)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
+... 21 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNext -->
+      </class> <!-- hust.cs.javacourse.search.parse.PatternTermTupleFilterTest -->
+    </test> <!-- D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/parse/PatternTermTupleFilterTest.java -->
+    <test started-at="2024-06-07T12:42:18Z" name="D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/parse/LengthTermTupleFilterTest.java" finished-at="2024-06-07T12:42:18Z" duration-ms="5">
+      <class name="hust.cs.javacourse.search.parse.LengthTermTupleFilterTest">
+        <test-method signature="testNext(hust.cs.javacourse.search.parse.AbstractTermTupleStream, java.util.List)[pri:0, instance:hust.cs.javacourse.search.parse.LengthTermTupleFilterTest@3b94d659]" started-at="2024-06-07T12:42:18Z" name="testNext" data-provider="testLengthTermTupleFilter" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:131)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+Caused by: java.lang.NullPointerException: Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+at java.base/java.util.regex.Matcher.getTextLength(Matcher.java:1808)
+at java.base/java.util.regex.Matcher.reset(Matcher.java:461)
+at java.base/java.util.regex.Matcher.<init>(Matcher.java:256)
+at java.base/java.util.regex.Pattern.matcher(Pattern.java:1180)
+at util.StringSplitter.splitByRegex(StringSplitter.java:35)
+at hust.cs.javacourse.search.parse.TermTupleScanFilterTestCase.parse(TermTupleScanFilterTestCase.java:66)
+at hust.cs.javacourse.search.parse.TermTupleScanFilterTestCase.parseFile(TermTupleScanFilterTestCase.java:97)
+at hust.cs.javacourse.search.parse.LengthTermTupleFilterTestDataProvider.testLengthTermTupleFilter(LengthTermTupleFilterTestDataProvider.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
+... 21 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNext -->
+      </class> <!-- hust.cs.javacourse.search.parse.LengthTermTupleFilterTest -->
+    </test> <!-- D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/parse/LengthTermTupleFilterTest.java -->
+    <test started-at="2024-06-07T12:42:18Z" name="D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/parse/ScannerFilterAllInOneTest.java" finished-at="2024-06-07T12:42:18Z" duration-ms="10">
+      <class name="hust.cs.javacourse.search.parse.ScannerFilterAllInOneTest">
+        <test-method signature="testNext(hust.cs.javacourse.search.parse.AbstractTermTupleStream, java.util.List)[pri:0, instance:hust.cs.javacourse.search.parse.ScannerFilterAllInOneTest@4516af24]" started-at="2024-06-07T12:42:18Z" name="testNext" data-provider="testScannerFilterAllInOne" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:131)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+Caused by: java.lang.NullPointerException: Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+at java.base/java.util.regex.Matcher.getTextLength(Matcher.java:1808)
+at java.base/java.util.regex.Matcher.reset(Matcher.java:461)
+at java.base/java.util.regex.Matcher.<init>(Matcher.java:256)
+at java.base/java.util.regex.Pattern.matcher(Pattern.java:1180)
+at util.StringSplitter.splitByRegex(StringSplitter.java:35)
+at hust.cs.javacourse.search.parse.TermTupleScanFilterTestCase.parse(TermTupleScanFilterTestCase.java:66)
+at hust.cs.javacourse.search.parse.TermTupleScanFilterTestCase.parseFile(TermTupleScanFilterTestCase.java:97)
+at hust.cs.javacourse.search.parse.ScannerFilterAllInOneTestDataProvider.testScannerFilterAllInOne(ScannerFilterAllInOneTestDataProvider.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
+... 21 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNext -->
+      </class> <!-- hust.cs.javacourse.search.parse.ScannerFilterAllInOneTest -->
+    </test> <!-- D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/parse/ScannerFilterAllInOneTest.java -->
+    <test started-at="2024-06-07T12:42:18Z" name="D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/index/DocumentBuilderTest.java" finished-at="2024-06-07T12:42:18Z" duration-ms="217">
+      <class name="hust.cs.javacourse.search.index.DocumentBuilderTest">
+        <test-method signature="testBuild(hust.cs.javacourse.search.index.AbstractDocument, hust.cs.javacourse.search.index.AbstractDocument)[pri:0, instance:hust.cs.javacourse.search.index.DocumentBuilderTest@5a4041cc]" started-at="2024-06-07T12:42:18Z" name="testBuild" data-provider="testDocumentBuilder" finished-at="2024-06-07T12:42:18Z" duration-ms="2" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "hust.cs.javacourse.search.index.AbstractDocument.getDocId()" because "doc1" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "hust.cs.javacourse.search.index.AbstractDocument.getDocId()" because "doc1" is null
+at util.CustomComparator.isEqual(CustomComparator.java:27)
+at hust.cs.javacourse.search.index.DocumentBuilderTest.testBuild(DocumentBuilderTest.java:13)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBuild -->
+        <test-method signature="testBuild(hust.cs.javacourse.search.index.AbstractDocument, hust.cs.javacourse.search.index.AbstractDocument)[pri:0, instance:hust.cs.javacourse.search.index.DocumentBuilderTest@5a4041cc]" started-at="2024-06-07T12:42:18Z" name="testBuild" data-provider="testDocumentBuilder" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "hust.cs.javacourse.search.index.AbstractDocument.getDocId()" because "doc1" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "hust.cs.javacourse.search.index.AbstractDocument.getDocId()" because "doc1" is null
+at util.CustomComparator.isEqual(CustomComparator.java:27)
+at hust.cs.javacourse.search.index.DocumentBuilderTest.testBuild(DocumentBuilderTest.java:13)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBuild -->
+        <test-method signature="testBuild(hust.cs.javacourse.search.index.AbstractDocument, hust.cs.javacourse.search.index.AbstractDocument)[pri:0, instance:hust.cs.javacourse.search.index.DocumentBuilderTest@5a4041cc]" started-at="2024-06-07T12:42:18Z" name="testBuild" data-provider="testDocumentBuilder" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "hust.cs.javacourse.search.index.AbstractDocument.getDocId()" because "doc1" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "hust.cs.javacourse.search.index.AbstractDocument.getDocId()" because "doc1" is null
+at util.CustomComparator.isEqual(CustomComparator.java:27)
+at hust.cs.javacourse.search.index.DocumentBuilderTest.testBuild(DocumentBuilderTest.java:13)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBuild -->
+        <test-method signature="testBuild(hust.cs.javacourse.search.index.AbstractDocument, hust.cs.javacourse.search.index.AbstractDocument)[pri:0, instance:hust.cs.javacourse.search.index.DocumentBuilderTest@5a4041cc]" started-at="2024-06-07T12:42:18Z" name="testBuild" data-provider="testDocumentBuilder" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "hust.cs.javacourse.search.index.AbstractDocument.getDocId()" because "doc1" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "hust.cs.javacourse.search.index.AbstractDocument.getDocId()" because "doc1" is null
+at util.CustomComparator.isEqual(CustomComparator.java:27)
+at hust.cs.javacourse.search.index.DocumentBuilderTest.testBuild(DocumentBuilderTest.java:13)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBuild -->
+        <test-method signature="testBuild(hust.cs.javacourse.search.index.AbstractDocument, hust.cs.javacourse.search.index.AbstractDocument)[pri:0, instance:hust.cs.javacourse.search.index.DocumentBuilderTest@5a4041cc]" started-at="2024-06-07T12:42:18Z" name="testBuild" data-provider="testDocumentBuilder" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "hust.cs.javacourse.search.index.AbstractDocument.getDocId()" because "doc1" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "hust.cs.javacourse.search.index.AbstractDocument.getDocId()" because "doc1" is null
+at util.CustomComparator.isEqual(CustomComparator.java:27)
+at hust.cs.javacourse.search.index.DocumentBuilderTest.testBuild(DocumentBuilderTest.java:13)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBuild -->
+        <test-method signature="testTestBuild(hust.cs.javacourse.search.index.AbstractDocument, hust.cs.javacourse.search.index.AbstractDocument)[pri:0, instance:hust.cs.javacourse.search.index.DocumentBuilderTest@5a4041cc]" started-at="2024-06-07T12:42:18Z" name="testTestBuild" data-provider="testDocumentBuilder" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "hust.cs.javacourse.search.index.AbstractDocument.getDocId()" because "doc1" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "hust.cs.javacourse.search.index.AbstractDocument.getDocId()" because "doc1" is null
+at util.CustomComparator.isEqual(CustomComparator.java:27)
+at hust.cs.javacourse.search.index.DocumentBuilderTest.testTestBuild(DocumentBuilderTest.java:18)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestBuild -->
+        <test-method signature="testTestBuild(hust.cs.javacourse.search.index.AbstractDocument, hust.cs.javacourse.search.index.AbstractDocument)[pri:0, instance:hust.cs.javacourse.search.index.DocumentBuilderTest@5a4041cc]" started-at="2024-06-07T12:42:18Z" name="testTestBuild" data-provider="testDocumentBuilder" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "hust.cs.javacourse.search.index.AbstractDocument.getDocId()" because "doc1" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "hust.cs.javacourse.search.index.AbstractDocument.getDocId()" because "doc1" is null
+at util.CustomComparator.isEqual(CustomComparator.java:27)
+at hust.cs.javacourse.search.index.DocumentBuilderTest.testTestBuild(DocumentBuilderTest.java:18)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestBuild -->
+      </class> <!-- hust.cs.javacourse.search.index.DocumentBuilderTest -->
+    </test> <!-- D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/index/DocumentBuilderTest.java -->
+    <test started-at="2024-06-07T12:42:18Z" name="D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/index/IndexTest.java" finished-at="2024-06-07T12:42:18Z" duration-ms="29">
+      <class name="hust.cs.javacourse.search.index.IndexTest">
+        <test-method signature="testTestToString(hust.cs.javacourse.search.index.AbstractIndex, [Ljava.lang.String;)[pri:0, instance:hust.cs.javacourse.search.index.IndexTest@5427c60c]" started-at="2024-06-07T12:42:18Z" name="testTestToString" data-provider="testIndex" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException: Cannot read field "termToPostingListMapping" because "index" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException: Cannot read field "termToPostingListMapping" because "index" is null
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:131)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+Caused by: java.lang.NullPointerException: Cannot read field "termToPostingListMapping" because "index" is null
+at hust.cs.javacourse.search.index.IndexTestCase.buildToStringTestCase(IndexTestCase.java:59)
+at hust.cs.javacourse.search.index.IndexTestDataProvider.testIndex(IndexTestDataProvider.java:14)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
+... 21 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestToString -->
+        <test-method signature="testAddDocument([Lhust.cs.javacourse.search.index.AbstractIndex;, hust.cs.javacourse.search.index.AbstractDocument)[pri:0, instance:hust.cs.javacourse.search.index.IndexTest@5427c60c]" started-at="2024-06-07T12:42:18Z" name="testAddDocument" data-provider="testIndex" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "hust.cs.javacourse.search.index.AbstractDocument.getDocId()" because "addedDoc" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke "hust.cs.javacourse.search.index.AbstractDocument.getDocId()" because "addedDoc" is null
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:131)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+Caused by: java.lang.NullPointerException: Cannot invoke "hust.cs.javacourse.search.index.AbstractDocument.getDocId()" because "addedDoc" is null
+at hust.cs.javacourse.search.index.IndexTestCase.buildAddDocumentTestCase(IndexTestCase.java:99)
+at hust.cs.javacourse.search.index.IndexTestDataProvider.testIndex(IndexTestDataProvider.java:17)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
+... 21 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddDocument -->
+        <test-method signature="testLoad(hust.cs.javacourse.search.index.AbstractIndex, java.lang.String)[pri:0, instance:hust.cs.javacourse.search.index.IndexTest@5427c60c]" started-at="2024-06-07T12:42:18Z" name="testLoad" data-provider="testIndex" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/C:/Users/23258/Desktop/CS2203_U202215643_%e7%8e%8b%e5%9b%bd%e8%b1%aa/Experiment1Test(JDK17)/test/config/..//index/index_1_2_3_txt.dat]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "hust.cs.javacourse.search.index.AbstractIndex.save(java.io.File)" because "index" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "hust.cs.javacourse.search.index.AbstractIndex.save(java.io.File)" because "index" is null
+at hust.cs.javacourse.search.index.IndexTest.testLoad(IndexTest.java:39)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoad -->
+        <test-method signature="testSave(hust.cs.javacourse.search.index.AbstractIndex, java.lang.String)[pri:0, instance:hust.cs.javacourse.search.index.IndexTest@5427c60c]" started-at="2024-06-07T12:42:18Z" name="testSave" data-provider="testIndex" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/C:/Users/23258/Desktop/CS2203_U202215643_%e7%8e%8b%e5%9b%bd%e8%b1%aa/Experiment1Test(JDK17)/test/config/..//index/index_1_2_3_txt.dat]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "hust.cs.javacourse.search.index.AbstractIndex.save(java.io.File)" because "index" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "hust.cs.javacourse.search.index.AbstractIndex.save(java.io.File)" because "index" is null
+at hust.cs.javacourse.search.index.IndexTest.testSave(IndexTest.java:48)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSave -->
+        <test-method signature="testSearch(hust.cs.javacourse.search.index.AbstractIndex, hust.cs.javacourse.search.index.AbstractPostingList)[pri:0, instance:hust.cs.javacourse.search.index.IndexTest@5427c60c]" started-at="2024-06-07T12:42:18Z" name="testSearch" data-provider="testIndex" finished-at="2024-06-07T12:42:18Z" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "hust.cs.javacourse.search.index.AbstractIndex.search(hust.cs.javacourse.search.index.AbstractTerm)" because "index" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "hust.cs.javacourse.search.index.AbstractIndex.search(hust.cs.javacourse.search.index.AbstractTerm)" because "index" is null
+at hust.cs.javacourse.search.index.IndexTest.testSearch(IndexTest.java:57)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method signature="testGetDictionary(hust.cs.javacourse.search.index.AbstractIndex, java.util.Set)[pri:0, instance:hust.cs.javacourse.search.index.IndexTest@5427c60c]" started-at="2024-06-07T12:42:18Z" name="testGetDictionary" data-provider="testIndex" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException: Cannot read field "termToPostingListMapping" because "index" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException: Cannot read field "termToPostingListMapping" because "index" is null
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:131)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+Caused by: java.lang.NullPointerException: Cannot read field "termToPostingListMapping" because "index" is null
+at hust.cs.javacourse.search.index.IndexTestCase.buildGetDictionaryTestCase(IndexTestCase.java:75)
+at hust.cs.javacourse.search.index.IndexTestDataProvider.testIndex(IndexTestDataProvider.java:29)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
+... 21 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDictionary -->
+        <test-method signature="testWriteObject(hust.cs.javacourse.search.index.AbstractIndex, java.lang.String)[pri:0, instance:hust.cs.javacourse.search.index.IndexTest@5427c60c]" started-at="2024-06-07T12:42:18Z" name="testWriteObject" data-provider="testIndex" finished-at="2024-06-07T12:42:18Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/C:/Users/23258/Desktop/CS2203_U202215643_%e7%8e%8b%e5%9b%bd%e8%b1%aa/Experiment1Test(JDK17)/test/config/..//index/index_1_2_3_txt.dat]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWriteObject -->
+        <test-method signature="testReadObject(hust.cs.javacourse.search.index.AbstractIndex, java.lang.String)[pri:0, instance:hust.cs.javacourse.search.index.IndexTest@5427c60c]" started-at="2024-06-07T12:42:18Z" name="testReadObject" data-provider="testIndex" finished-at="2024-06-07T12:42:18Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/C:/Users/23258/Desktop/CS2203_U202215643_%e7%8e%8b%e5%9b%bd%e8%b1%aa/Experiment1Test(JDK17)/test/config/..//index/index_1_2_3_txt.dat]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReadObject -->
+        <test-method signature="testOptimize(hust.cs.javacourse.search.index.AbstractIndex, hust.cs.javacourse.search.index.AbstractIndex)[pri:0, instance:hust.cs.javacourse.search.index.IndexTest@5427c60c]" started-at="2024-06-07T12:42:18Z" name="testOptimize" data-provider="testIndex" finished-at="2024-06-07T12:42:18Z" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "hust.cs.javacourse.search.index.AbstractIndex.optimize()" because "toOptimizeIndex" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "hust.cs.javacourse.search.index.AbstractIndex.optimize()" because "toOptimizeIndex" is null
+at hust.cs.javacourse.search.index.IndexTest.testOptimize(IndexTest.java:99)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOptimize -->
+        <test-method signature="testGetDocName(hust.cs.javacourse.search.index.AbstractIndex, [Ljava.lang.String;)[pri:0, instance:hust.cs.javacourse.search.index.IndexTest@5427c60c]" started-at="2024-06-07T12:42:18Z" name="testGetDocName" data-provider="testIndex" finished-at="2024-06-07T12:42:18Z" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.String;@7e990ed7]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot read field "docIdToDocPathMapping" because "index" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot read field "docIdToDocPathMapping" because "index" is null
+at hust.cs.javacourse.search.index.IndexTest.testGetDocName(IndexTest.java:105)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDocName -->
+      </class> <!-- hust.cs.javacourse.search.index.IndexTest -->
+    </test> <!-- D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/index/IndexTest.java -->
+    <test started-at="2024-06-07T12:42:18Z" name="D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/index/IndexBuilderTest.java" finished-at="2024-06-07T12:42:18Z" duration-ms="4">
+      <class name="hust.cs.javacourse.search.index.IndexBuilderTest">
+        <test-method signature="testBuildIndex(hust.cs.javacourse.search.index.AbstractIndex, hust.cs.javacourse.search.index.AbstractIndex)[pri:0, instance:hust.cs.javacourse.search.index.IndexBuilderTest@27fe3806]" started-at="2024-06-07T12:42:18Z" name="testBuildIndex" data-provider="testIndexBuilder" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[docId----docPath mapping:
+
+Postings:
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "hust.cs.javacourse.search.index.AbstractIndex.optimize()" because "index2" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "hust.cs.javacourse.search.index.AbstractIndex.optimize()" because "index2" is null
+at util.CustomComparator.isEqual(CustomComparator.java:44)
+at hust.cs.javacourse.search.index.IndexBuilderTest.testBuildIndex(IndexBuilderTest.java:13)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBuildIndex -->
+      </class> <!-- hust.cs.javacourse.search.index.IndexBuilderTest -->
+    </test> <!-- D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/index/IndexBuilderTest.java -->
+    <test started-at="2024-06-07T12:42:18Z" name="D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/query/HitTest.java" finished-at="2024-06-07T12:42:18Z" duration-ms="18">
+      <class name="hust.cs.javacourse.search.query.HitTest">
+        <test-method signature="testGetDocId(hust.cs.javacourse.search.query.AbstractHit, int)[pri:0, instance:hust.cs.javacourse.search.query.HitTest@5e955596]" started-at="2024-06-07T12:42:18Z" name="testGetDocId" data-provider="testHit" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException: Cannot load from object array because "hits" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException: Cannot load from object array because "hits" is null
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:131)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+Caused by: java.lang.NullPointerException: Cannot load from object array because "hits" is null
+at hust.cs.javacourse.search.query.HitTestCase.buildGetDocIdTestCase(HitTestCase.java:21)
+at hust.cs.javacourse.search.query.HitTestDataProvider.testHit(HitTestDataProvider.java:14)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
+... 21 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDocId -->
+        <test-method signature="testGetDocPath(hust.cs.javacourse.search.query.AbstractHit, java.lang.String)[pri:0, instance:hust.cs.javacourse.search.query.HitTest@5e955596]" started-at="2024-06-07T12:42:18Z" name="testGetDocPath" data-provider="testHit" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException: Cannot load from object array because "hits" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException: Cannot load from object array because "hits" is null
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:131)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+Caused by: java.lang.NullPointerException: Cannot load from object array because "hits" is null
+at hust.cs.javacourse.search.query.HitTestCase.buildGetDocPathTestCase(HitTestCase.java:32)
+at hust.cs.javacourse.search.query.HitTestDataProvider.testHit(HitTestDataProvider.java:17)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
+... 21 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDocPath -->
+        <test-method signature="testGetContent(hust.cs.javacourse.search.query.AbstractHit, java.lang.String)[pri:0, instance:hust.cs.javacourse.search.query.HitTest@5e955596]" started-at="2024-06-07T12:42:18Z" name="testGetContent" data-provider="testHit" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException: Cannot load from object array because "hits" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException: Cannot load from object array because "hits" is null
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:131)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+Caused by: java.lang.NullPointerException: Cannot load from object array because "hits" is null
+at hust.cs.javacourse.search.query.HitTestCase.buildGetContentTestCase(HitTestCase.java:43)
+at hust.cs.javacourse.search.query.HitTestDataProvider.testHit(HitTestDataProvider.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
+... 21 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetContent -->
+        <test-method signature="testSetContent(hust.cs.javacourse.search.query.AbstractHit, java.lang.String)[pri:0, instance:hust.cs.javacourse.search.query.HitTest@5e955596]" started-at="2024-06-07T12:42:18Z" name="testSetContent" data-provider="testHit" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException: Cannot load from object array because "hits" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException: Cannot load from object array because "hits" is null
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:131)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+Caused by: java.lang.NullPointerException: Cannot load from object array because "hits" is null
+at hust.cs.javacourse.search.query.HitTestCase.buildSetContentTestCase(HitTestCase.java:54)
+at hust.cs.javacourse.search.query.HitTestDataProvider.testHit(HitTestDataProvider.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
+... 21 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetContent -->
+        <test-method signature="testGetScore(hust.cs.javacourse.search.query.AbstractHit, double)[pri:0, instance:hust.cs.javacourse.search.query.HitTest@5e955596]" started-at="2024-06-07T12:42:18Z" name="testGetScore" data-provider="testHit" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException: Cannot load from object array because "hits" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException: Cannot load from object array because "hits" is null
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:131)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+Caused by: java.lang.NullPointerException: Cannot load from object array because "hits" is null
+at hust.cs.javacourse.search.query.HitTestCase.buildGetScoreTestCase(HitTestCase.java:65)
+at hust.cs.javacourse.search.query.HitTestDataProvider.testHit(HitTestDataProvider.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
+... 21 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetScore -->
+        <test-method signature="testSetScore(hust.cs.javacourse.search.query.AbstractHit, double)[pri:0, instance:hust.cs.javacourse.search.query.HitTest@5e955596]" started-at="2024-06-07T12:42:18Z" name="testSetScore" data-provider="testHit" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException: Cannot load from object array because "hits" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException: Cannot load from object array because "hits" is null
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:131)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+Caused by: java.lang.NullPointerException: Cannot load from object array because "hits" is null
+at hust.cs.javacourse.search.query.HitTestCase.buildSetScoreTestCase(HitTestCase.java:76)
+at hust.cs.javacourse.search.query.HitTestDataProvider.testHit(HitTestDataProvider.java:29)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
+... 21 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetScore -->
+        <test-method signature="testGetTermPostingMapping(hust.cs.javacourse.search.query.AbstractHit, int)[pri:0, instance:hust.cs.javacourse.search.query.HitTest@5e955596]" started-at="2024-06-07T12:42:18Z" name="testGetTermPostingMapping" data-provider="testHit" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException: Cannot load from object array because "hits" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException: Cannot load from object array because "hits" is null
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:131)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+Caused by: java.lang.NullPointerException: Cannot load from object array because "hits" is null
+at hust.cs.javacourse.search.query.HitTestCase.buildGetTermPostingMappingTestCase(HitTestCase.java:87)
+at hust.cs.javacourse.search.query.HitTestDataProvider.testHit(HitTestDataProvider.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
+... 21 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTermPostingMapping -->
+        <test-method signature="testTestToString(hust.cs.javacourse.search.query.AbstractHit, [Ljava.lang.String;)[pri:0, instance:hust.cs.javacourse.search.query.HitTest@5e955596]" started-at="2024-06-07T12:42:18Z" name="testTestToString" data-provider="testHit" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException: Cannot load from object array because "hits" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException: Cannot load from object array because "hits" is null
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:131)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+Caused by: java.lang.NullPointerException: Cannot load from object array because "hits" is null
+at hust.cs.javacourse.search.query.HitTestCase.buildToStringTestCase(HitTestCase.java:99)
+at hust.cs.javacourse.search.query.HitTestDataProvider.testHit(HitTestDataProvider.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
+... 21 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestToString -->
+        <test-method signature="testCompareTo([Lhust.cs.javacourse.search.query.AbstractHit;, int)[pri:0, instance:hust.cs.javacourse.search.query.HitTest@5e955596]" started-at="2024-06-07T12:42:18Z" name="testCompareTo" data-provider="testHit" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException: Cannot load from object array because "hits" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException: Cannot load from object array because "hits" is null
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:131)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+Caused by: java.lang.NullPointerException: Cannot load from object array because "hits" is null
+at hust.cs.javacourse.search.query.HitTestCase.buildCompareToSTestCase(HitTestCase.java:117)
+at hust.cs.javacourse.search.query.HitTestDataProvider.testHit(HitTestDataProvider.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
+... 21 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompareTo -->
+      </class> <!-- hust.cs.javacourse.search.query.HitTest -->
+    </test> <!-- D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/query/HitTest.java -->
+    <test started-at="2024-06-07T12:42:18Z" name="D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/query/IndexSearcherTest.java" finished-at="2024-06-07T12:42:18Z" duration-ms="14">
+      <class name="hust.cs.javacourse.search.index.PostingListTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:hust.cs.javacourse.search.index.PostingListTest@2eda0940]" started-at="2024-06-07T12:42:18Z" name="beforeSuite" finished-at="2024-06-07T12:42:18Z" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+      </class> <!-- hust.cs.javacourse.search.index.PostingListTest -->
+      <class name="hust.cs.javacourse.search.query.IndexSearcherTest">
+        <test-method signature="testSearch([Lhust.cs.javacourse.search.query.AbstractHit;, [Lhust.cs.javacourse.search.query.AbstractHit;)[pri:0, instance:hust.cs.javacourse.search.query.IndexSearcherTest@6c9f5c0d]" started-at="2024-06-07T12:42:18Z" name="testSearch" data-provider="testIndexSearcher" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lhust.cs.javacourse.search.query.AbstractHit;@660acfb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method signature="testSearch([Lhust.cs.javacourse.search.query.AbstractHit;, [Lhust.cs.javacourse.search.query.AbstractHit;)[pri:0, instance:hust.cs.javacourse.search.query.IndexSearcherTest@6c9f5c0d]" started-at="2024-06-07T12:42:18Z" name="testSearch" data-provider="testIndexSearcher" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lhust.cs.javacourse.search.query.AbstractHit;@7486b455]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method signature="testTestSearch([Lhust.cs.javacourse.search.query.AbstractHit;, [Lhust.cs.javacourse.search.query.AbstractHit;)[pri:0, instance:hust.cs.javacourse.search.query.IndexSearcherTest@6c9f5c0d]" started-at="2024-06-07T12:42:18Z" name="testTestSearch" data-provider="testIndexSearcher" finished-at="2024-06-07T12:42:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lhust.cs.javacourse.search.query.AbstractHit;@5d908d47]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestSearch -->
+      </class> <!-- hust.cs.javacourse.search.query.IndexSearcherTest -->
+    </test> <!-- D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/query/IndexSearcherTest.java -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
